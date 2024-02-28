@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+
+body {
+    font-family: 'Kings', cursive;
+    /*background-color: rgb(123,123,123)*/
+    background-image: url("kilometer.jpg");
+    background-repeat:round;
+    margin:0;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:seashell;
+    padding: 1.2rem;
+    min-height: 95vh;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.border {
+    text-align: center;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: blue 5px dotted;
+    width:fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+table, th, td {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 1rem;
+    background-image: url("kilometer.jpg");
+    background-size: cover;
+}
+
+.pain {
+    box-shadow: -1px 1px 199px 200px rgba(255,0,0,1);
+    -webkit-box-shadow: -1px 1px 199px 200px rgba(255,0,0,1);
+    -moz-box-shadow: -1px 1px 199px 200px rgba(255,0,0,1);
+}
+
+img {
+    max-width: 100%;
+    max-height: 40rem;
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:aquamarine;
+    box-shadow: -1px 1px 199px 200px aquamarine;
+    background-color: aquamarine;
+}
+
+a:visited {
+    color:blue
+}
+
+#odkaz {
+    color:blue;
+    text-decoration: none;
+}
+
+#odkaz:hover {
+    color:aquamarine;
+    box-shadow: -1px 1px 199px 200px rgb(163, 255, 127);
+}
+
+#odkaz:visited {
+    color:blue
+}
+
+.hbox {
+    display:flex;
+    flex-direction: row;
+}
+
+.hbox div {
+    flex-grow: 1;
+}
